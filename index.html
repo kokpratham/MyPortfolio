@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham Kokardekar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="container">
+            <a href="#" class="logo">PK</a>
+            <nav>
+                <button class="nav-link" data-section="hero">Home</button>
+                <button class="nav-link" data-section="about">About</button>
+                <button class="nav-link" data-section="skills">Skills</button>
+                <button class="nav-link" data-section="projects">Projects</button>
+                <button class="nav-link" data-section="experience">Experience</button>
+                <button class="nav-link" data-section="contact">Contact</button>
+            </nav>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <i id="theme-icon" data-lucide="moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm Pratham Kokardekar</h1>
+                    <div id="typed-strings">
+                        <p>Software Developer</p>
+                        <p>AI and ML Enthusiast</p>
+                        <p>Blockchain Enthusiast</p>
+                    </div>
+                    <span id="typed"></span>
+                    <p class="hero-description">Media & Marketing Head at Algorand Blockchain Club, passionate about creating innovative solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="https://drive.google.com/file/d/1EGkO5vx0d3v65zrNmd7ipJPDceSZVXtJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="button primary">
+                            <i data-lucide="download"></i> Download Resume
+                        </a>
+                        <a href="https://github.com/kokpratham" target="_blank" rel="noopener noreferrer" class="button outline">
+                            <i data-lucide="github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/pratham-kokardekar" target="_blank" rel="noopener noreferrer" class="button outline">
+                            <i data-lucide="linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-01-09%20at%2015.13.00-2T7Kz2egHlrBhVLTnxp5LR513ygZvB.jpeg" alt="Pratham Kokardekar">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! I'm Pratham Kokardekar, a passionate software developer with a keen interest in AI, Machine Learning, and Blockchain technology. Currently, I'm serving as the Media & Marketing Head at the Algorand Blockchain Club, where I combine my technical skills with creative marketing strategies to promote blockchain adoption.</p>
+                        <p>My journey in tech began with a fascination for problem-solving and has evolved into a career focused on creating innovative solutions. I'm constantly learning and adapting to new technologies, believing that the future of tech lies in the intersection of AI, blockchain, and sustainable development.</p>
+                        <p>When I'm not coding or brainstorming marketing ideas, you can find me exploring the latest tech trends, participating in hackathons, or contributing to open-source projects. I'm always open to new opportunities and collaborations that challenge me to grow both personally and professionally.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <p>Here are some of the technologies and tools I'm proficient in:</p>
+                <div class="skills-grid">
+                    <!-- Skills will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <p>Here are some of my recent projects that showcase my skills and experience.</p>
+                <div class="projects-grid">
+                    <!-- Projects will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience & Achievements</h2>
+                <p>My professional journey and key accomplishments.</p>
+                <div class="timeline">
+                    <!-- Experience items will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have a question or want to work together? Feel free to reach out!</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Here's how you can reach me</p>
+                        <div class="info-item">
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:kokardekarpratham@gmail.com">kokardekarpratham@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="phone"></i>
+                            <a href="tel:+919067003512">+91 9067003512</a>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Pune, Maharashtra, 411038, India</span>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <h3>Send a Message</h3>
+                        <p>I'll get back to you as soon as possible</p>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="button primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pratham Kokardekar. All rights reserved.</p>
+            <nav>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
